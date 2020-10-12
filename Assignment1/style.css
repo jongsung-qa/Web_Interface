@@ -1,0 +1,25 @@
+body {
+    font-family:'Verdana';
+    font-size:12pt;
+    text-align: center;
+    width: 100%;
+    background-color: antiquewhite; 
+    color: gray;
+}
+table{
+	margin:auto;
+}
+.layout{
+	font-size:20px;
+}
+.photo{
+	width:200px
+}
+#list{
+    text-align: left;
+}
+.footer {
+    position:absolute;   
+    background:#ccc;
+    width: 100%;
+}
