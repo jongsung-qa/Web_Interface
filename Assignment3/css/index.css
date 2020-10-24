@@ -1,0 +1,33 @@
+body {
+	font-family:'Verdana';
+	font-size:12pt;
+	text-align: center;
+	width: 100%;
+	background-color: antiquewhite; 
+	color: gray;
+}
+table{
+	margin:auto;
+}
+#move_to{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 45px;
+    color: red;
+}
+#layout{
+	font-size:20px;
+}
+#photo{
+    width:210px;
+    margin-top: 20px;
+}
+#list{
+	text-align: left;
+}
+footer{
+    clear: both;
+    padding: 5px;
+    background:grey; 
+    color: white;
+    text-align: center
+}
