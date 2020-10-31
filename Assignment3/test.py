@@ -1,4 +1,4 @@
-import numpy as np
+
 import pandas as pd
-ser = pd.Series(np.arange(4.), index=['a','b','c','d'])
-print(ser[-1])
+obj = pd.Series([7,-5,-7,4,6,6,0])
+obj.rank(method='average')
