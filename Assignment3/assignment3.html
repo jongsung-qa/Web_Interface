@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment3</title>
-    <link rel="stylesheet" href="css/assignment3.css"/>
+    <link rel="stylesheet" href="css/assignment3.css" />
 </head>
+
 <body>
-    <header>
-        <div class="wrapper">
+    <div id="wrapper">
+        <header id="menu">
             <h1>LOGO</h1>
             <nav>
                 <ul class="menu">
@@ -18,62 +19,66 @@
                     <li><a href="mailto:jbae18@my.centennialcollege.ca">Contact</a></li>
                 </ul>
             </nav>
+        </header>
+        <div id="container">
+            <div id="banner"></div>
+            <div id="content">
+                <div id="img_ps1">
+                    <img src="img/img_ps2.jpg" alt="image_ps1" align="left">
+                    <a href=""><strong>View Larger Picture</strong></a>
+                </div>
+                <div id="section">
+                    <h2 id="hdline">About PS5</h2>
+                    <h5 id="date"><i>Release 12,November,2020</i></h5><br>
+                    <p>
+                        The PS5 (or PlayStation 5) is Sony's long-awaited next-generation console. It costs $499.99 / £449.99 / AU$749.95 and will be available from November 12, 2020 (in select markets such as the US and Japan) and November 19, 2020 for the rest of the world, including the UK. Sony is also releasing a Digital Edition of the console, which removes the disc drive and costs $399.99
+                    </p><br>
+                    <div id="youtube">
+                       <iframe width="100%" height="400" src="https://www.youtube.com/embed/RkC0l4iekYo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div id="tb">
+                    <table border="1">
+                        <caption id="tb_caption">Specs for the PS5</caption>
+                        <thead id="tb_head">
+                            <tr>
+                                <th id="day">Component</th>
+                                <th id="hours">Specification</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td headers="com">CPU</td>
+                                <td headers="spc">x86-64-AMD Ryzen Zen 8 Cores<br>16 Threads at 3.5GHz (variable frequency)</td>
+                            </tr>
+                            <tr class="altrow">
+                                <td headers="com">GPU</td>
+                                <td headers="spc">Ray Tracing Acceleration<br>Up to 2.23 GHz (10.3 TFLOPS)</td>
+                            </tr>
+                            <tr>
+                                <td headers="com">GPU Architecture</td>
+                                <td headers="spc">AMD Radeon RDNA 2-based graphics engine</td>
+                            </tr>
+                            <tr class="altrow">
+                                <td headers="com">Memory/Interface</td>
+                                <td headers="spc">16GB GDDR6/256-bit</td>
+                            </tr>
+                            <tr>
+                                <td headers="com">Internal Storage</td>
+                                <td headers="spc">Custom 825GB SSD</td>
+                            </tr>
+                            <tr class="altrow">
+                                <td headers="com">Optical Drive\n(optional)</td>
+                                <td headers="spc">Ultra HD Blu-ray (66G/100G) ~10xCAV<br>BD-ROM (25G/50G) ~8xCAV<br>BD-R/RE (25G/50G) ~8x CAV<br>DVD ~3.2xCLV</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
-    </header>
-    <div id="container">
-        <div id="banner"></div>
-        <div id="image">
-           <img src="img/img_ps1.png" alt="image_ps1">
-        </div>
-        <p>View Larger Picture</p>
-        <div id="content">
-            <h2>About PS5</h2>
-            <h3>Release 12,November,2020</h3>
-            <p>
-                The PS5 (or PlayStation 5) is Sony's long-awaited next-generation console. It costs $499.99 / £449.99 / AU$749.95 and will be available from November 12, 2020 (in select markets such as the US and Japan) and November 19, 2020 for the rest of the world, including the UK. Sony is also releasing a Digital Edition of the console, which removes the disc drive and costs $399.99 
-            </p>
-        </div>
-        <div id="tb">
-            <table border="1">
-        <caption>Specs for the PS5</caption>
-        <thead>
-            <tr>
-                <th id="day">Component</th>
-                <th id="hours">Specification</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td headers="com">CPU</td>
-                <td headers="spc">x86-64-AMD Ryzen Zen 8 Cores<br>16 Threads at 3.5GHz (variable frequency)</td>
-            </tr>
-            <tr>
-                <td headers="com">GPU</td>
-                <td headers="spc">Ray Tracing Acceleration<br>Up to 2.23 GHz (10.3 TFLOPS)</td>
-            </tr>
-            <tr>
-                <td headers="com">GPU Architecture</td>
-                <td headers="spc">AMD Radeon RDNA 2-based graphics engine</td>
-            </tr>
-            <tr>
-                <td headers="com">Memory/Interface</td>
-                <td headers="spc">16GB GDDR6/256-bit</td>
-            </tr>
-            <tr>
-                <td headers="com">Internal Storage</td>
-                <td headers="spc">Custom 825GB SSD</td>
-            </tr>
-            <tr>
-                <td headers="com">Optical Drive\n(optional)</td>
-                <td headers="spc">Ultra HD Blu-ray (66G/100G) ~10xCAV<br>BD-ROM (25G/50G) ~8xCAV<br>BD-R/RE (25G/50G) ~8x CAV<br>DVD ~3.2xCLV</td>
-            </tr>
-          
-    </table>
-        </div>
+        <footer>
+            <h6>&reg; Copyright Centennial College - COMP213 - Web Design - Fall 2020 <br>
+                Jongsung, 301136370, COMP213004, Semester</h6>
+        </footer>
     </div>
-    <footer>
-        <h6>&reg; Copyright Centennial College - COMP213 - Web Design - Fall 2020 <br>
-            Jongsung, 301136370, COMP213004, Semester</h6>
-    </footer>
-</body>
-</html>
+</body></html>
