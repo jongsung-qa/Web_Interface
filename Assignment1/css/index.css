@@ -1,3 +1,4 @@
+a{text-decoration: none; color: inherit;}
 body {
     font-family:'Verdana';
     font-size:12pt;
@@ -17,6 +18,12 @@ table{
 }
 #list{
     text-align: left;
+}
+#move_title{
+    color: mediumvioletred
+}
+#move{
+    margin-bottom: 20px;
 }
 .footer {
     position:absolute;   
