@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment3</title>
+    <link rel="stylesheet" href="css/assignment3.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <header id="menu">
+            <h1 id="logo"><a href="assignment3.html">PlayStation5</a></h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../Assignment2/assignment2.html">Assignment2</a></li>
+                    <li><a href="assignment3.html">Assignment3</a></li>
+                    <li><a href="mailto:jbae18@my.centennialcollege.ca">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="container">
+            <div id="banner"></div>
+            <div id="content">
+                <form name="form">
+                    <h1>CENTENNIAL COLLEGE</h1>
+                    <h2>Continuing Education Course / Instructor Evaluation</h2>
+                    <p>
+                        Please read each statement carefully and consider each one individually.
+                        Use the <b>computer card</b> to make your choice(use a pencil to fill in the space).
+                        Give only <b>one answer</b> for each question.
+                    </p>
+                    <p>Course Name / Code:
+                        <select id="course">
+                            <option value="">-- select course --</option>
+                            <optgroup label="Software Engineering Technician">
+                                <option value="ironman">Software Engineering Technician-3408</option>
+                                <option value="deadpool">Software Engineering Technician-3428(Fast-Track)</option>
+                            </optgroup>
+                            <optgroup label="Software Engineering Teechnology">
+                                <option value="ironman">Software Engineering Teechnolog-3409(Optional Co-op)</option>
+                                <option value="deadpool">Software Engineering Teechnolog-3429(Fast-Track)(Optional
+                                    Co-op)</option>
+                            </optgroup>
+                            <optgroup label="Artificial Intelligence">
+                                <option value="ironman">Artificial Intelligence-3402</option>
+                                <option value="deadpool">Artificial Intelligence-3422(Fast-Track)</option>
+                            </optgroup>
+                        </select>
+                    </p>
+                    <p>
+                        Semester:
+                        <input type="radio" name="semester" value="Fall">Fall &nbsp;&nbsp;
+                        <input type="radio" name="semester" value="Winter">Winter &nbsp;&nbsp;
+                        <input type="radio" name="semester" value="Spring/Summer">Spring/Summer &nbsp;&nbsp;&nbsp;&nbsp;
+                        Year: <input type="text" id="year" placeholder="EX) 2020">
+                    </p>
+                    <p>
+                        Instructor: <input type="text" id="Instructor" placeholder="EX) Last Name, First Name">
+                    </p>
+                    <fieldset>
+                        <legend>INSTRUCTOR</legend>
+                        <table>
+                            <p>How would you rate the instructor's:</p>
+                            <p>1. <b>knoledge</b> of subject</p>
+                            &nbsp;&nbsp;<label><input type="checkbox" name="knowledge" value="Excellent">(a)
+                                Excellent</label>&nbsp;&nbsp;
+                            <label><input type="checkbox" name="knowledge" value="Good">(b) Good</label>&nbsp;&nbsp;
+                            <label><input type="checkbox" name="knowledge" value="Fair">(c) Fair</label>&nbsp;&nbsp;
+                            <label><input type="checkbox" name="knowledge" value="Not Satisfactory">(d) Not
+                                Satisfactory</label>
+                            <p>2. <b>helpfulness?</b></p>
+                            &nbsp;&nbsp;<label><input type="checkbox" name="knowledge" value="Excellent">(a)
+                                Excellent</label>&nbsp;&nbsp;
+                            <label><input type="checkbox" name="knowledge" value="Good">(b) Good</label>&nbsp;&nbsp;
+                            <label><input type="checkbox" name="knowledge" value="Fair">(c) Fair</label>&nbsp;&nbsp;
+                            <label><input type="checkbox" name="knowledge" value="Not Satisfactory">(d) Not
+                                Satisfactory</label>
+                            <p>3. <b>courtesy and respect</b> for all students?</p>
+                            &nbsp;&nbsp;<label><input type="checkbox" name="knowledge" value="Excellent">(a)
+                                Excellent</label>&nbsp;&nbsp;
+                            <label><input type="checkbox" name="knowledge" value="Good">(b) Good</label>&nbsp;&nbsp;
+                            <label><input type="checkbox" name="knowledge" value="Fair">(c) Fair</label>&nbsp;&nbsp;
+                            <label><input type="checkbox" name="knowledge" value="Not Satisfactory">(d) Not
+                                Satisfactory</label>
+                            <p>4. <b>communication</b> skills?</p>
+                            &nbsp;&nbsp;<label><input type="checkbox" name="knowledge" value="Excellent">(a)
+                                Excellent</label>&nbsp;&nbsp;
+                            <label><input type="checkbox" name="knowledge" value="Good">(b) Good</label>&nbsp;&nbsp;
+                            <label><input type="checkbox" name="knowledge" value="Fair">(c) Fair</label>&nbsp;&nbsp;
+                            <label><input type="checkbox" name="knowledge" value="Not Satisfactory">(d) Not
+                                Satisfactory</label>
+                            <p>5. overall <b>performance?</b></p>
+                            &nbsp;&nbsp;<label><input type="checkbox" name="knowledge" value="Excellent">(a)
+                                Excellent</label>&nbsp;&nbsp;
+                            <label><input type="checkbox" name="knowledge" value="Good">(b) Good</label>&nbsp;&nbsp;
+                            <label><input type="checkbox" name="knowledge" value="Fair">(c) Fair</label>&nbsp;&nbsp;
+                            <label><input type="checkbox" name="knowledge" value="Not Satisfactory">(d) Not
+                                Satisfactory</label>
+                        </table>
+                    </fieldset>
+                    <fieldset>
+                        <legend>COURSE</legend>
+                        <table>
+                            <p>6. How would you rate the <b>course materials?</b></p>
+                            &nbsp;&nbsp;<label><input type="checkbox" name="knowledge" value="Excellent">(a)
+                                Excellent</label>&nbsp;&nbsp;
+                            <label><input type="checkbox" name="knowledge" value="Good">(b) Good</label>&nbsp;&nbsp;
+                            <label><input type="checkbox" name="knowledge" value="Fair">(c) Fair</label>&nbsp;&nbsp;
+                            <label><input type="checkbox" name="knowledge" value="Not Satisfactory">(d) Not
+                                Satisfactory</label>
+                            <p>7. How much did this course meet your <b>expectations?</b></p>
+                            &nbsp;&nbsp;<label><input type="checkbox" name="knowledge" value="Excellent">(a)
+                                Excellent</label>&nbsp;&nbsp;
+                            <label><input type="checkbox" name="knowledge" value="Good">(b) Good</label>&nbsp;&nbsp;
+                            <label><input type="checkbox" name="knowledge" value="Fair">(c) Fair</label>&nbsp;&nbsp;
+                            <label><input type="checkbox" name="knowledge" value="Not Satisfactory">(d) Not
+                                Satisfactory</label>
+                            <p>8. How would you rate this course(<b>overall</b>)?</p>
+                            &nbsp;&nbsp;<label><input type="checkbox" name="knowledge" value="Excellent">(a)
+                                Excellent</label>&nbsp;&nbsp;
+                            <label><input type="checkbox" name="knowledge" value="Good">(b) Good</label>&nbsp;&nbsp;
+                            <label><input type="checkbox" name="knowledge" value="Fair">(c) Fair</label>&nbsp;&nbsp;
+                            <label><input type="checkbox" name="knowledge" value="Not Satisfactory">(d) Not
+                                Satisfactory</label>
+                        </table>
+                    </fieldset>
+                    <fieldset>
+                        <legend>GENERAL INFORMATION</legend>
+                        <table>
+                            <!-- <caption id="tb_caption">GENERAL INFORMATION</caption> -->
+                            <p>9. Was the <b>course outline</b> reviewed/explained at the beginning of your course?</p>
+                            &nbsp;&nbsp;<label><input type="checkbox" name="GENERAL_INFORMATION" value="Yes">(a)
+                                Yes</label>&nbsp;&nbsp;
+                            <label><input type="checkbox" name="knowledge" value="No">(b) No</label>&nbsp;&nbsp;
+                            <p>10. Would you <b>recommend</b> this course to a friend with the same interests?</p>
+                            &nbsp;&nbsp;<label><input type="checkbox" name="GENERAL_INFORMATION" value="Yes">(a)
+                                Yes</label>&nbsp;&nbsp;
+                            <label><input type="checkbox" name="knowledge" value="No">(b) No</label>&nbsp;&nbsp;
+                        </table>
+                    </fieldset>
+                    <fieldset>
+                        <legend>ANY OTHER COMMENTS(please use the back of the computer card or this paper if necessary)
+                        </legend>
+                        <div id="other">
+                            <p>11. What is the <b>best thing</b> about this course?</p>
+                            <textarea rows="5" style="width:100%" name="info" class="form-control"></textarea>
+                            <p>12. How could we <b>improve</b> this course?</p>
+                            <textarea rows="5" style="width:100%" name="info" class="form-control"></textarea>
+                            <p>13. Other:</p>
+                            <textarea rows="5" style="width:100%" name="info" class="form-control"></textarea>
+                    </fieldset>
+
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" class="btn btn-primary" value="전송">
+                            <input type="reset" class="btn btn-danger" value="취소">
+                        </td>
+                    </tr>
+
+
+
+
+                </form>
+
+
+                <footer>
+                    <h6>&reg; Copyright Centennial College - COMP213 - Web Design - Fall 2020 <br>
+                        Jongsung, 301136370, COMP213004, Semester</h6>
+                </footer>
+            </div>
+</body>
+
+</html>
