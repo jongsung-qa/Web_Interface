@@ -1,0 +1,110 @@
+/*reset*/
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+a{text-decoration: none; color: inherit;}
+
+body{
+    width: 100%;
+    margin: 0;
+    font-family:'Sansserif';
+    font-size:12pt;
+    background: url('/Assignment4/img/background.png')no-repeat 50% 50% fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#wrapper{
+    width: 50%;
+    margin: 0 auto;
+}
+header{
+    height: 75px;
+    background-color: #006f84;
+    border: 1px solid #253342;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+}
+#logo{color: white; margin-left: 30px; line-height: 75px; float: left; font-family: 'Lobster', cursive;}
+.menu{float: right;}
+.menu li{float: left;}
+.menu a{line-height: 75px; color: white; padding: 0 10px; 
+}
+
+/*container*/
+#container{
+    background-color: #FFFF99;
+    width: 100%
+}
+#banner{
+    background-size: auto;
+    left: 0px;
+    position: center;
+    width: 100%;
+    height: 200px;
+    background: url(../img/banner1.png) no-repeat 50% 50% /cover;
+    margin-bottom: 10px;
+}
+#img_ps1{
+    margin-top: 10px;
+    padding: 20px;
+    width: 27%;
+    float: left;
+/*    border: 1px solid #828282;*/
+}
+#content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#title_name{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#title_des{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#course_intro{
+    margin-bottom: 10px;
+}
+fieldset{
+    margin-bottom: 10px;
+}
+#tb_a{
+    margin-left: 10px;
+}
+#first_q{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#second_q{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#third_q{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#fourth_q{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#last{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/*footer*/
+footer{
+    clear: both;
+    padding: 5px;
+    background:#8977ad; 
+    color: white;
+    text-align: center;
+/*    width: 100%*/
+}
